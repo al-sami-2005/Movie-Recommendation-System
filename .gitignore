@@ -1,0 +1,28 @@
+# Python Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm / IDEs
+.idea/
+.vscode/
+
+# OS Hidden Files
+.DS_Store
+Thumbs.db
+
+# Heavy datasets and auto-generated recommendation matrices
+# TMDB API blocks GitHub limits - strict ignore required
+Files/*.pkl
+*.pkl
+
+# Streamlit config (optional depending on if developer wants secrets ignored)
+# .streamlit/secrets.toml
